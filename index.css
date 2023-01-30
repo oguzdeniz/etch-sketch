@@ -1,0 +1,29 @@
+:root {
+  --square-size: 80px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(30, 30, 30);
+}
+.container {
+  width: calc(16 * 40px);
+  height: calc(16 * 40px);
+  margin: auto;
+  background: gray;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  background: lightgray;
+  border: solid 1px lightblue;
+  width: 40px;
+  height: 40px;
+}
+.square:hover {
+  background: red;
+}
